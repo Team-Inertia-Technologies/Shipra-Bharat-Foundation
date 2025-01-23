@@ -90,7 +90,7 @@ $SHORT_MONTH_ARR = array("1" => "Jan", "2" => "Feb", "3" => "Mar", "4" => "Apr",
 $STATUS_ARR = array('A' => 'Active', 'I' => 'Inactive');
 $STATUS_ARR2 = array('A' => 'Complete', 'I' => 'Pending');
 $BOOKING_STATUS_ARR = array('D' => 'Draft', 'A' => 'Active', 'I' => 'Inactive', 'P' => 'Pending');
-$USER_LEVEL_ARR = array('0' => 'System Admin', '1' => 'Head Office', '2' => 'Vessel Manager', '3' => 'Supervisor', '4' => 'Cashier');
+$USER_LEVEL_ARR = array('0' => 'System Admin', '1' => 'Receptionist', '2' => 'Doctor', '3' => 'Staff');
 $YES_ARR = array('Y' => 'Yes', 'N' => 'No');
 $REGISTRATION_STATUS_ARR = array('D' => 'Draft', 'V' => 'Verified', 'C' => 'Confirmed', 'R' => 'Rejected');
 $REGISTRATION_STATUS_CSS_ARR = array('D' => 'warning', 'V' => 'primary', 'C' => 'success', 'R' => 'danger');
