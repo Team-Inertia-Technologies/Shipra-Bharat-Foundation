@@ -115,45 +115,78 @@
       <div class="modal fade action-sheet inset" id="actionSheetShare" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Share with</h5>
-                        <a href="#" class="btn btn-secondary btn-block btn-lg" data-dismiss="modal">Close</a>
-                    </div>
+               
                     <div class="modal-body">
-                        <ul class="action-button-list">
-                            <li>
-                                <a href="#" class="btn btn-list" data-dismiss="modal">
-                                    <span>
-                                        <ion-icon name="logo-facebook"></ion-icon>
-                                        Facebook
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-list" data-dismiss="modal">
-                                    <span>
-                                        <ion-icon name="logo-twitter"></ion-icon>
-                                        Twitter
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-list" data-dismiss="modal">
-                                    <span>
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                        Instagram
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-list" data-dismiss="modal">
-                                    <span>
-                                        <ion-icon name="logo-linkedin"></ion-icon>
-                                        Linkedin
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
+                    <a href="#" class="modalclose" data-dismiss="modal">×</a>
+
+                    <div class="section mt-4">
+                    <div class="form-group boxed">
+                    <div class="input-wrapper">
+                        <div class="mb-2">Add diagnosis</div>
+                        <div class="">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb1">
+                                        <label class="custom-control-label" for="customCheckb1">Hypertension</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb2">
+                                        <label class="custom-control-label" for="customCheckb2">Diabetes</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb3">
+                                        <label class="custom-control-label" for="customCheckb3">Heart</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb4">
+                                        <label class="custom-control-label" for="customCheckb4">Kidney</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb5">
+                                        <label class="custom-control-label" for="customCheckb5">Liver</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb6">
+                                        <label class="custom-control-label" for="customCheckb6">Stomach</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-6">
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb7">
+                                        <label class="custom-control-label" for="customCheckb7">Neuro</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb8">
+                                        <label class="custom-control-label" for="customCheckb8">Gastro</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb9">
+                                        <label class="custom-control-label" for="customCheckb9">Lungs</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb10">
+                                        <label class="custom-control-label" for="customCheckb10">Urology</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb11">
+                                        <label class="custom-control-label" for="customCheckb11">Gynac</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-1">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckb12">
+                                        <label class="custom-control-label" for="customCheckb12">Others</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
                     </div>
                 </div>
             </div>
